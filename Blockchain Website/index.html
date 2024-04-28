@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/favicon.jpeg" type="image/x-icon">
+    <title>SVCT-Blockchain Club</title>
+  </head>
+  <body>
+    <!-- Home Section -->
+
+    <section id="home">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://svct.edu.in/" target="_blank"
+            ><img src="./assets/SVCT-LOGO.jpeg" alt="College Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#home"
+                onclick="closeNavbar()"
+                >Home</a
+              >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#about-club"
+                onclick="closeNavbar()"
+                >About Club</a
+              >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#institution"
+                onclick="closeNavbar()"
+                >Institution</a
+              >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#events"
+                onclick="closeNavbar()"
+                >Events</a
+              >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#gallery"
+                onclick="closeNavbar()"
+                >Gallery</a
+              >
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#contact"
+                onclick="closeNavbar()"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- HOME -->
+      <div class="icon text-center mb-3">
+        <img src="./assets/BC-CLUB-LOGO .png" alt="Club Logo" />
+      </div>
+      <div class="welcome">
+        <h4>Welcome to,</h4>
+        <h2>SVCT-Blockchain Club</h2>
+      </div>
+      <div class="clg">
+        <h4>Associated with,</h4>
+        <h2>Sri Venkateshwaraa College of Technology</h2>
+      </div>
+      <div class="quotes">
+        <h3>
+          “Everything will be tokenized and connected by the blockchain one
+          day…”
+        </h3>
+        <p>Fred Ehrsem</p>
+      </div>
+    </section>
+
+    <!-- About Club Section -->
+
+    <section id="about-club" class="py-5">
+      <br />
+      <br />
+      <br />
+      <h2 class="text-center">About Club</h2>
+      <br />
+      <br />
+      <p>
+        At SVCT Blockchain Club, we're passionate about exploring the
+        transformative potential of blockchain technology. Our club serves as a
+        dynamic hub for students at Sri Venkateswaraa College of Technology to
+        learn, collaborate, and innovate in this rapidly evolving field.
+      </p>
+
+      <ul style="list-style-type: none">
+        <li>
+          <h5><a id="openPopupBtn1">Club Mission</a></h5>
+        </li>
+        <li>
+          <img
+            class="arrow"
+            src="./assets/Icons-svg/arrow-down-solid.svg"
+            alt=""
+          />
+          <h5><a id="openPopupBtn2">Club Structure</a></h5>
+        </li>
+        <li>
+          <img src="./assets/Icons-svg/arrow-down-solid.svg" alt="" />
+          <h5><a id="openPopupBtn3">Club Leadership</a></h5>
+        </li>
+      </ul>
+
+      <div id="popup1" class="popup">
+        <div class="popup-content">
+          <span class="close" id="closePopup1">&times;</span>
+          <h2>Club Mission</h2>
+          <p>
+            The mission of the Blockchain club is to educate, engage, and
+            empower individuals interested in blockchain technology and
+            cryptocurrencies. We aim to create a vibrant community of blockchain
+            enthusiasts, foster knowledge sharing, and promote the responsible
+            and ethical use of blockchain technology.
+          </p>
+        </div>
+      </div>
+
+      <div id="popup2" class="popup">
+        <div class="popup-content">
+          <span class="close" id="closePopup2">&times;</span>
+          <h2>Club Structure</h2>
+          <img src="./assets/BCC-CLUB STRUCTURE.jpg" alt="" />
+        </div>
+      </div>
+
+      <div id="popup3" class="popup">
+        <div class="popup-content">
+          <span class="close" id="closePopup3">&times;</span>
+          <h2>Club Leadership</h2>
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="profile">
+                  <img
+                    src="./assets/Members-Image/Faculty Incharge.jpg"
+                    class="img-fluid"
+                    style="height: 200px; border-radius: 5px"
+                    alt=""
+                  />
+                  <p>
+                    <h4>The Faculty Incharge</h4>
+                    Dr. S. Lakshmi, Professor / ECE, Dean of Academics, Faculty
+                    incharge Blockchain Club, SVCT.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="profile">
+                  <img
+                    src="./assets/Members-Image/President.jpg"
+                    class="img-fluid"
+                    style="height: 200px; border-radius: 5px"
+                    alt=""
+                  />
+                  <p>
+                    <h4>The President</h4>
+                    Mr. Dhanaseelan Subramani, 2021-2025 Blockchain Club, SVCT
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="profile">
+                  <img
+                    src="./assets/Members-Image/Secretary.jpg"
+                    class="img-fluid"
+                    style="height: 200px; border-radius: 5px"
+                    alt=""
+                  />
+                  
+                  <p>
+                    <h4>The Secretary</h4>
+                    Ms. S. Sandhiya, 2021-2025 Blockchain Club, SVCT</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="profile">
+                  <img
+                    src="assets/Members-Image/CSO.jpg"
+                    class="img-fluid"
+                    style="height: 200px; border-radius: 5px"
+                    alt=""
+                  />
+                  <p>
+                    <h4>The Chief Student Organiser(CSO)</h4>
+                    Mr. R. Tamilmani Enra Hariharan, 2021-2025 Blockchain Club,
+                    SVCT
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="overlay"></div>
+    </section>
+
+    <!-- Institution Section -->
+
+    <section id="institution" class="py-5">
+      <br />
+      <br />
+      <br />
+      <h2 class="text-center">Institution</h2>
+      <br />
+      <br />
+      <div class="container-fluid">
+        <div class="row m-2">
+          <div class="col-md-6">
+            <img
+              src="./assets/SVCT-COLLEGE.png"
+              class="img-fluid"
+              style="padding-top: 75px"
+            />
+          </div>
+          <div class="col-md-6">
+            <div>
+              <br />
+              <h5 class="mt-0" style="text-align: center">
+                Welcome to the Best Engineering College in Chennai
+              </h5>
+              <br />
+              <p class="text-justify" style="text-align: left">
+                Sri Venkateswaraa College of Technology was started in 2010 as
+                the flagship institute under Govindasamy Naidu Educational
+                Trust. The college is located in BHB Nagar, Vadakal Village,
+                Oragadam Industrial Corridor, Sriperumbudur 602 105. We at SVCT
+                are extremely passionate about raising the aspirations,
+                knowledge and skills of individuals. The college offers
+                technical education to budding engineers in the field of
+                Computer Science & Engineering, Artificial Intelligence and Data
+                Science, Electronics and Communications Engineering, Electrical
+                and Electronics Engineering, Mechanical Engineering & Civil
+                Engineering. SVCT is one of the very few colleges that have
+                understood the value of nurturing engineers with rich knowledge
+                of upcoming technologies and giving hands-on exposure to
+                industrial technologies for students, right from a very earlier
+                stage. Hence, as an initiative towards increasing the
+                industry-institute interaction and to bridge the skill gap, the
+                Techno Park provides an opportunity for students to collaborate
+                with industries, learn from the industries, work along with them
+                and get the most needed practical exposure at the tender stage
+                of learning itself which makes students of SVCT highly
+                deployable and most sought by the industries. Due to this, we
+                have been achieving the motto of creating skilled and
+                technically sound engineers who are well aware of the
+                technological world rather than being just bookworms. The
+                college also provides internship opportunities for students
+                which give them industrial exposure and earning opportunities
+                during their study period itself, due to this students face the
+                competitive world with much more confidence. Also, the physical
+                location of the college is amongst many SIPCOTS which makes it
+                an added advantage to easily access the industries inside
+                Sriperumbudur which is called as the Detroit of Tamil Nadu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+
+    <section id="events" class="py-5">
+      <br />
+      <br />
+      <br />
+      <h2 class="text-center">Events</h2>
+      <br />
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/BCC-Events/Block O Cast.png"
+              class="d-block w-100"
+              style="height: 80vh"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/BCC-Events/Gitathon.png"
+              class="d-block w-100"
+              style="height: 80vh"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+
+    <section id="gallery" class="py-5">
+        <div class="gallery-container">
+            <h2 class="text-center">Gallery</h2>
+            <div class="gallery" id="gallery">
+
+              
+                <img src="./assets/Gallery-Images/IMG-1.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-2.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-3.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-4.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-5.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-6.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-7.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-8.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-9.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-10.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-11.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-12.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-13.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-14.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-15.JPG" alt="">
+                <img src="./assets/Gallery-Images/IMG-16.JPG" alt="">
+            </div>
+            <button id="loadMoreBtn">Load More</button>
+        </div>
+    </section>
+   
+    <!-- Contact Section -->
+
+    <section id="contact" class="py-5">
+      <footer class="text-center">
+        <hr />
+        <div>
+          <h6>Social Media Accounts</h6>
+        </div>
+        <div class="media-icon">
+          <a
+            href="https://www.youtube.com/channel/UCy08NS9EoVATvolnz-Gu4yQ"
+            target="_blank"
+            ><img
+              class="social-media"
+              src="./assets/Icons-svg/youtube.svg"
+              alt=""
+          /></a>
+          <a
+            href="https://www.instagram.com/blockchain_club_svct?igsh=MXd6bGZuenYwOXk3OA=="
+            target="_blank"
+            ><img
+              class="social-media"
+              src="./assets/Icons-svg/instagram.svg"
+              alt=""
+          /></a>
+          <a
+            href="https://www.linkedin.com/showcase/98832881/admin/feed/posts/"
+            target="_blank"
+            ><img
+              class="social-media"
+              src="./assets/Icons-svg/linkedin.svg"
+              alt="" /></a
+          ><br /><br /><br />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="adress">
+                <img src="./assets/Icons-svg/house-solid.svg" alt="" />
+                <br />
+                <br />
+                <p>
+                  BHB Nagar, Vadakal Village, Pondur Post,<br />
+                  Near Vadakarai Sipcot, Sriperumbudur – 602 105. <br />
+                  Ph. 044-67177777 <br />
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contactfoot">
+                <h3>Contact Us</h3>
+                <br />
+                <div class="contact-icons">
+                  <ul>
+                    <li>
+                      <img src="./assets/Icons-svg/phone-solid.svg" alt="" />
+                      <a href="tel:9150080081">9150080081</a>
+                    </li>
+                    <li>
+                      <img src="./assets/Icons-svg/phone-solid.svg" alt="" />
+                      <a href="tel:9150080081">9150080081</a>
+                    </li>
+                    <li>
+                      <img src="./assets/Icons-svg/envelope-solid.svg" alt="" />
+                      <a href="mailto:svctblockchainclub@gmail.com"
+                        >svctblockchainclub@gmail.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          © Copyrights 2024 SVCT-BlockChain Club. All rights reserved.
+        </div>
+      </footer>
+    </section>
+
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
